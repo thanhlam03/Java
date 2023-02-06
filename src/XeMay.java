@@ -14,7 +14,7 @@ public class XeMay{
         this.DangChay = false;
     }
     public void bat(){
-        this.TocDoHienTai = 10;
+        this.TocDoHienTai = 0;
         System.out.println("xe chay");
     }
     public void tat(){
@@ -25,7 +25,7 @@ public class XeMay{
         this.TocDoHienTai = tocdo;
         System.out.println("Thay doi toc do:" + tocdo);
     }
-    public void chuyentrangthai(){
+    public void ChuyenTrangThai(){
         if (this.TocDoHienTai == 0)
         {
 //            this.DangChay = false ;
@@ -47,10 +47,10 @@ public class XeMay{
                 '}';
     }
     public static void main(String[] args) {
-        XeMay XeMay3 = new XeMay("HonDa,", "TayGa", 999999.f, 175);
+        XeMay XeMay3 = new XeMay("Serius,", "Xe số", 324111.f, 150);
         XeMay3.bat();
         XeMay3.Thaydoitocdo(0);
-        XeMay3.chuyentrangthai();
+        XeMay3.ChuyenTrangThai();
         System.out.println(XeMay3);
     }
 }
