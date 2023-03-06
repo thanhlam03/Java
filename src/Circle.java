@@ -1,10 +1,15 @@
-public class Circle extends Shape {
-    double radius;
-    public Circle(double radius){
-        this.radius= radius;
+public class Circle  implements IShape {
+    private double _radius;
+    public Circle(double radius) {
+        _radius = radius;
     }
-
-    public double getRadius() {
-        return radius * radius * Math.PI;
+    public double getArea()    {
+        return Math.PI * _radius * _radius;
+    }
+    public String toString() {
+        return "Circle(radius = " + _radius + ")";
     }
 }
+
+
+
