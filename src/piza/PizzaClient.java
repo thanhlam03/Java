@@ -1,3 +1,5 @@
+package piza;
+
 public class PizzaClient {
     public void run() {
 
@@ -6,7 +8,7 @@ public class PizzaClient {
 
         PizzaDeal pd = new PizzaDeal();
 
-        System.out.println(round + " is a better deal than " + rect + ": " +
+        System.out.println(round.getShape() + " is a better deal than " + rect.getShape() + ": " +
                 pd.betterDeal(round, rect));
 
     }

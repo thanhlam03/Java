@@ -1,3 +1,5 @@
+package piza;
+
 public class Pizza {
     private double _price;
     private IShape _shape;

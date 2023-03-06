@@ -1,3 +1,5 @@
+package piza;
+
 public class Rectangle implements IShape {
     private double _width;
     private double _height;
@@ -9,6 +11,6 @@ public class Rectangle implements IShape {
         return _height * _width;
     }
     public String toString() {
-        return "Rectangle(h = " + _height + ", w = " + _width + ")";
+        return "piza.Rectangle(h = " + _height + ", w = " + _width + ")";
     }
 }

@@ -1,3 +1,5 @@
+package piza;
+
 public class Circle  implements IShape {
     private double _radius;
     public Circle(double radius) {
@@ -7,7 +9,7 @@ public class Circle  implements IShape {
         return Math.PI * _radius * _radius;
     }
     public String toString() {
-        return "Circle(radius = " + _radius + ")";
+        return "piza.Circle(radius = " + _radius + ")";
     }
 }
 

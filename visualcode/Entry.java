@@ -1,6 +1,6 @@
 public class Entry {
     public static void main(String[] args) {
-		Account account1 = new Account(1000, "Tuan", 2000);
+		Account account1 = new Account(1000, "Lam", 2000);
 		account1.display();
 		account1.withdraw(2100);
 		account1.deposit(600);

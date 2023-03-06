@@ -1,3 +1,5 @@
+package piza;
+
 public class PizzaDeal {
     public double deal(Pizza p) {
         return p.getPrice() / p.getShape().getArea();
