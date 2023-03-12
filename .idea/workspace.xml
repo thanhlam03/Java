@@ -6,12 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="33aad873-3335-47fa-b5ed-f2f6f8196201" name="Changes" comment="Add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/piza/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/piza/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/piza/IShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/piza/IShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/piza/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/piza/Pizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/piza/PizzaClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/piza/PizzaClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/piza/PizzaDeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/piza/PizzaDeal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/piza/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/piza/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baiabstract9Shape/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baiabstract9Shape/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baiabstract9Shape/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baiabstract9Shape/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baiabstract9Shape/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baiabstract9Shape/Square.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,20 +72,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PizzaClient">
-    <configuration name="Employee.TestEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Employee.TestEmployee" />
-      <module name="Hoc Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Employee.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.run">
     <configuration name="Entry" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Entry" />
       <module name="Hoc Java" />
@@ -131,13 +115,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baiabstract9Shape.run" />
+      <module name="Hoc Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baiabstract9Shape.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.run" />
         <item itemvalue="Application.PizzaClient" />
         <item itemvalue="Application.EntryEmployee" />
         <item itemvalue="Application.TestEmployee" />
         <item itemvalue="Application.EntryyyEmployee" />
-        <item itemvalue="Application.Employee.TestEmployee" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +294,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678063711367</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Add">
+      <created>1678633830386</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1678633830386</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Add">
+      <created>1678633858286</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1678633858286</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Add">
+      <created>1678633975244</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1678633975244</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
