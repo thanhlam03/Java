@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33aad873-3335-47fa-b5ed-f2f6f8196201" name="Changes" comment="Add">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baiabstract9Shape/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baiabstract9Shape/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baiabstract9Shape/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baiabstract9Shape/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baiabstract9Shape/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baiabstract9Shape/Square.java" afterDir="false" />
-    </list>
+    <list default="true" id="33aad873-3335-47fa-b5ed-f2f6f8196201" name="Changes" comment="Add" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -315,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678633975244</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Add">
+      <created>1678634674459</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1678634674459</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
