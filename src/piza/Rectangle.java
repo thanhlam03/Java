@@ -1,5 +1,4 @@
 package piza;
-
 public class Rectangle implements IShape {
     private double _width;
     private double _height;
