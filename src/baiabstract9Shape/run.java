@@ -11,8 +11,5 @@ public class run {
         System.out.println(s1);
         System.out.println(" dien tich la "+s1.getArea()+"\n chu vi la "+s1.getPerimeter());
         System.out.println();
-
-
     }
-
 }
