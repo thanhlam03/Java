@@ -1,0 +1,22 @@
+Index: src/baiabstract9Shape/run.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package baiabstract9Shape;\r\npublic class run {\r\n    public static void main(String[] args) {\r\n        Circle c1 = new Circle(8);\r\n        Rectangle r1 = new Rectangle(6,2);\r\n        Square      s1 = new Square(7);\r\n        System.out.println(c1);\r\n        System.out.println(\" dien tich la \"+c1.getArea()+\"\\n chu vi la \"+c1.getPerimeter());\r\n        System.out.println(r1);\r\n        System.out.println(\" dien tich la \"+r1.getArea()+\"\\n chu vi la \"+r1.getPerimeter());\r\n        System.out.println(s1);\r\n        System.out.println(\" dien tich la \"+s1.getArea()+\"\\n chu vi la \"+s1.getPerimeter());\r\n        System.out.println();\r\n\r\n\r\n    }\r\n\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/baiabstract9Shape/run.java b/src/baiabstract9Shape/run.java
+--- a/src/baiabstract9Shape/run.java	(revision e479c435f26bf9856ff23c7efa4836e16f5a44e1)
++++ b/src/baiabstract9Shape/run.java	(date 1678635300892)
+@@ -11,8 +11,8 @@
+         System.out.println(s1);
+         System.out.println(" dien tich la "+s1.getArea()+"\n chu vi la "+s1.getPerimeter());
+         System.out.println();
++    }
++}
+ 
+ 
+-    }
+ 
+-}
+\ No newline at end of file
