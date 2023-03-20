@@ -2,6 +2,6 @@ package convit;
 
 public class FlyRocketPowered implements Flyable {
     public void fly() {
-        System.out.println("I'm flying with a rocket!");
+        System.out.println("Tôi bay với động cơ rocket 1h");
     }
 }

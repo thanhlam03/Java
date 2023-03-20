@@ -2,11 +2,12 @@ package convit;
 
 public class RedheadDuck extends Duck {
     public RedheadDuck() {
-        setFlyBehavior(new FlyWithWings());
-        setQuackBehavior(new Quack());
+        flyBehavior = new FlyWithWings();
+        quackBehavior = new CannotQuack();
     }
 
     public void display() {
-        System.out.println("I'm a Redhead Duck");
+
+        System.out.println(" Tôi là vịt đầu đỏ");
     }
 }

@@ -8,14 +8,18 @@ public class TurkeyAdaptor implements Ducklike {
     }
 
     public void fly() {
-        for (int i = 0; i < 5; i++) { // turkeys can only fly short distances
+        for (int i = 0; i < 5; i++) {
             turkey.fly();
         }
     }
 
     public void quack() {
-        turkey.gobble(); // delegate to the gobble method of the turkey object
+        turkey.gobble();
     }
 
-    // Other methods of Ducklike interface can be implemented if needed
+    @Override
+    public void display() {
+
+    }
+
 }

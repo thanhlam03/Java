@@ -6,12 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="33aad873-3335-47fa-b5ed-f2f6f8196201" name="Changes" comment="Add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baiabstract9Shape/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baiabstract9Shape/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baiabstract9Shape/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baiabstract9Shape/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baiabstract9Shape/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baiabstract9Shape/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baiabstract9Shape/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baiabstract9Shape/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baiabstract9Shape/run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baiabstract9Shape/run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/convit/CannotFly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/convit/CannotFly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/convit/DecoyDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/convit/DecoyDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/convit/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/convit/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/convit/DuckAdaptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/convit/DuckAdaptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/convit/DuckTestDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/convit/DuckTestDrive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/convit/Ducklike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/convit/Ducklike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/convit/FlyRocketPowered.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/convit/FlyRocketPowered.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/convit/FlyWithWings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/convit/FlyWithWings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/convit/Flyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/convit/Flyable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/convit/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/convit/MallardDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/convit/RedheadDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/convit/RedheadDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/convit/RubberDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/convit/RubberDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/convit/TurkeyAdaptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/convit/TurkeyAdaptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/convit/Turkeylike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/convit/Turkeylike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/run.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,14 +82,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
-  <component name="RunManager" selected="Application.run">
+}]]></component>
+  <component name="RunManager" selected="Application.MiniDuckSimulator">
     <configuration name="Entry" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Entry" />
       <module name="Hoc Java" />
@@ -90,22 +105,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EntryyyEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EntryyyEmployee" />
+    <configuration name="FileWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.FileWriter" />
       <module name="Hoc Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MiniDuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="convit.MiniDuckSimulator" />
+      <module name="Hoc Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="convit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="PizzaClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="piza.PizzaClient" />
-      <module name="Hoc Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestEmployee" />
       <module name="Hoc Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MiniDuckSimulator" />
+        <item itemvalue="Application.FileWriter" />
         <item itemvalue="Application.run" />
         <item itemvalue="Application.PizzaClient" />
         <item itemvalue="Application.EntryEmployee" />
-        <item itemvalue="Application.TestEmployee" />
-        <item itemvalue="Application.EntryyyEmployee" />
       </list>
     </recent_temporary>
   </component>
@@ -332,7 +359,42 @@
       <option name="project" value="LOCAL" />
       <updated>1678634815759</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Add">
+      <created>1678669575964</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1678669575964</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Add">
+      <created>1678669611754</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1678669611754</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Add">
+      <created>1679243266219</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1679243266219</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Add">
+      <created>1679270762826</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1679270762826</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Add">
+      <created>1679273307292</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1679273307292</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -352,5 +414,9 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="Add" />
     <option name="LAST_COMMIT_MESSAGE" value="Add" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

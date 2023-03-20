@@ -1,4 +1,4 @@
-package baiabstract9Shape;
+
 
 public abstract class Shape {
     protected String color;

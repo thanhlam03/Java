@@ -1,6 +1,7 @@
 package convit;
 
 public class DuckAdaptor implements Turkeylike {
+
     private final Ducklike duck;
 
     public DuckAdaptor(final Ducklike duck) {
@@ -8,9 +9,11 @@ public class DuckAdaptor implements Turkeylike {
     }
 
     public void gobble() {
-        duck.quack(); // delegate to the quack method of the duck object
+        duck.quack();
     }
 
-    // Other methods of Turkeylike interface can be implemented if needed
-}
+    @Override
+    public void fly() {
 
+    }
+}

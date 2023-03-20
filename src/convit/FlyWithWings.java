@@ -2,6 +2,6 @@ package convit;
 
 public class FlyWithWings implements Flyable {
     public void fly() {
-        System.out.println("I'm flying with wings!");
+        System.out.println("Tôi bay với đôi cánh");
     }
 }

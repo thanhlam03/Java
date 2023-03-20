@@ -2,12 +2,12 @@ package convit;
 
 public class MallardDuck extends Duck {
     public MallardDuck() {
-        setFlyBehavior(new FlyWithWings());
-        setQuackBehavior(new Quack());
+        flyBehavior = new FlyWithWings();
+        quackBehavior = new Quack();
     }
 
     public void display() {
-        System.out.println("I'm a Mallard Duck");
+        System.out.println("Tôi là vịt trời");
     }
 }
 
